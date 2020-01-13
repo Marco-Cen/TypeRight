@@ -1,0 +1,176 @@
+*** ENVIRONMENT CRASH ***
+
+Date: Jun 15 2019 9:19 PM
+
+File Name: C:\Program Files (x86)\Ready to Program\Ready.exe
+Version: 1.7.1  [11]
+File Size: 2908199
+File Date: Oct 7 2003 3:57 PM
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Line Starts: 457:13780 458:13782 459:13783 460:13784
+    Set Selection (2) - sz:460:13784 - slFr:1223 - slTo:1223 - nlA:0
+    Line Starts: 457:13780 458:13782 459:13783 460:13784
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25fd4c8 - L: 21 - C: 22 (x1)
+    Text - sz:460:13784 - slFr:21:22:1223 - slTo:21:22:1223 - nlA:0
+    Line Starts: 457:13780 458:13782 459:13783 460:13784
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Extend Selection - Text: 25d9b40 - L: 58 - C: 41 (x2)
+    Text - sz:994:35734 - slFr:15:0:1379 - slTo:58:41:3043 - nlA:0
+    Line Starts: 991:35730 992:35732 993:35733 994:35734
+  CMD: WM_CHAR [O] (D) (x1) [O]
+    Keystroke - Text: 25d9b40 - ch: 79
+    Text - sz:994:35734 - slFr:1379 - slTo:3043 - nlA:0
+    Line Starts: 991:35730 992:35732 993:35733 994:35734
+    Delete Selection (1) - Text: 25d9b40
+    Text - sz:994:35734 - slFr:15:0:1379 - slTo:58:41:3043 - nlA:0
+    Line Starts: 991:35730 992:35732 993:35733 994:35734
+    Delete Selection (2) - From line: 15 - From col: 0 - To line: 58 - To col: 41
+    Delete Selection (3) - sz:951:34070 - slFr:1379 - slTo:1379 - nlA:0
+    Line Starts: 948:34066 949:34068 950:34069 951:34070
+    Keystroke (2) - sz:951:34071 - slFr:1380 - slTo:1380 - nlA:0
+    Line Starts: 948:34067 949:34069 950:34070 951:34071
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d9b40 - L: 31 - C: 41 (x1)
+    Text - sz:951:34071 - slFr:15:1:1380 - slTo:15:1:1380 - nlA:0
+    Line Starts: 948:34067 949:34069 950:34070 951:34071
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25d9b40 - L: 17 - C: 70
+    Text - sz:951:34071 - slFr:15:1:1380 - slTo:31:13:2006 - nlA:0
+    Line Starts: 948:34067 949:34069 950:34070 951:34071
+    Set Selection (2) - sz:951:34071 - slFr:1420 - slTo:1420 - nlA:0
+    Line Starts: 948:34067 949:34069 950:34070 951:34071
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25d9b40 - L: 17 - C: 70 (x1)
+    Text - sz:951:34071 - slFr:17:33:1420 - slTo:17:33:1420 - nlA:0
+    Line Starts: 948:34067 949:34069 950:34070 951:34071
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 25d9b40 - Undo: 1
+    Text - sz:951:34071 - slFr:1420 - slTo:1420 - nlA:0
+    Line Starts: 948:34067 949:34069 950:34070 951:34071
+    Undo (2) - Undo size: 1664 - Repl from: 1379 - Repl to: 1380
+    Delete Selection (1) - Text: 25d9b40
+    Text - sz:951:34071 - slFr:1379 - slTo:1380 - nlA:0
+    Line Starts: 948:34067 949:34069 950:34070 951:34071
+    Delete Selection (2) - From line: 15 - From col: 0 - To line: 15 - To col: 1
+    Delete Selection (3) - sz:951:34070 - slFr:1379 - slTo:1379 - nlA:0
+    Line Starts: 948:34066 949:34068 950:34069 951:34070
+    Insert Text (1) - Text: 25d9b40 - size: 1664 - clean: 1
+    Text - sz:951:34070 - slFr:1379 - slTo:1379 - nlA:0
+    Line Starts: 948:34066 949:34068 950:34069 951:34070
+    Insert Text (2) - numNewLines: 43
+    Insert Text (3) - sz:994:35734 - slFr:3043 - slTo:3043 - nlA:0
+    Line Starts: 991:35730 992:35732 993:35733 994:35734
+    Undo (3) - sz:994:35734 - slFr:1379 - slTo:3043 - nlA:0
+    Line Starts: 991:35730 992:35732 993:35733 994:35734
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_UNDO
+    Undo (1) - Text: 25d9b40 - Undo: 1
+    Text - sz:994:35734 - slFr:15:0:1379 - slTo:58:41:3043 - nlA:0
+    Line Starts: 991:35730 992:35732 993:35733 994:35734
+    Undo (2) - Undo size: 35734 - Repl from: 0 - Repl to: 35734
+    Delete Selection (1) - Text: 25d9b40
+    Text - sz:994:35734 - slFr:15:0:0 - slTo:58:41:35734 - nlA:0
+    Line Starts: 991:35730 992:35732 993:35733 994:35734
+    Delete Selection (2) - From line: 15 - From col: 0 - To line: 58 - To col: 41
+    Delete Selection (3) - sz:0:0 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 0:0
+    Insert Text (1) - Text: 25d9b40 - size: 35734 - clean: 1
+    Text - sz:0:0 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 0:0
+    Insert Text (2) - numNewLines: 994
+    Insert Text (3) - sz:994:35734 - slFr:35734 - slTo:35734 - nlA:0
+    Line Starts: 991:35730 992:35732 993:35733 994:35734
+    Undo (3) - sz:994:35734 - slFr:1478 - slTo:1478 - nlA:0
+    Line Starts: 991:35730 992:35732 993:35733 994:35734
+  CMD: WM_CLOSE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_DESTROY (W)
+  CMD: WM_DESTROY (D)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Create File (W1) - Name: D:\Unit 6 - Major Programming Project (Summative)\TypeRight.java - Skel: 0
+  CMD: WM_CHAR [d] (D) (x3) [old]
+    Keystroke - Text: 25fd4c8 - ch: 100
+    Text - sz:460:13786 - slFr:21:24:1225 - slTo:21:24:1225 - nlA:0
+    Line Starts: 457:13782 458:13784 459:13785 460:13786
+    Keystroke (2) - sz:460:13787 - slFr:1226 - slTo:1226 - nlA:0
+    Line Starts: 457:13783 458:13785 459:13786 460:13787
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25fd4c8 - ch: 8
+    Text - sz:460:13787 - slFr:21:25:1226 - slTo:21:25:1226 - nlA:0
+    Line Starts: 457:13783 458:13785 459:13786 460:13787
+    Keystroke (2) - sz:460:13786 - slFr:1225 - slTo:1225 - nlA:0
+    Line Starts: 457:13782 458:13784 459:13785 460:13786
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25fd4c8 - ch: 8
+    Text - sz:460:13786 - slFr:21:24:1225 - slTo:21:24:1225 - nlA:0
+    Line Starts: 457:13782 458:13784 459:13785 460:13786
+    Keystroke (2) - sz:460:13785 - slFr:1224 - slTo:1224 - nlA:0
+    Line Starts: 457:13781 458:13783 459:13784 460:13785
+  CMD: WM_CHAR [O] (D) (x1) [O]
+    Keystroke - Text: 25fd4c8 - ch: 79
+    Text - sz:460:13785 - slFr:21:23:1224 - slTo:21:23:1224 - nlA:0
+    Line Starts: 457:13781 458:13783 459:13784 460:13785
+    Keystroke (2) - sz:460:13786 - slFr:1225 - slTo:1225 - nlA:0
+    Line Starts: 457:13782 458:13784 459:13785 460:13786
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25fd4c8 - ch: 8
+    Text - sz:460:13786 - slFr:21:24:1225 - slTo:21:24:1225 - nlA:0
+    Line Starts: 457:13782 458:13784 459:13785 460:13786
+    Keystroke (2) - sz:460:13785 - slFr:1224 - slTo:1224 - nlA:0
+    Line Starts: 457:13781 458:13783 459:13784 460:13785
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25fd4c8 - ch: 8
+    Text - sz:460:13785 - slFr:21:23:1224 - slTo:21:23:1224 - nlA:0
+    Line Starts: 457:13781 458:13783 459:13784 460:13785
+    Keystroke (2) - sz:460:13784 - slFr:1223 - slTo:1223 - nlA:0
+    Line Starts: 457:13780 458:13782 459:13783 460:13784
+  CMD: WM_CHAR [d] (D) (x3) [Old]
+    Keystroke - Text: 25fd4c8 - ch: 100
+    Text - sz:460:13786 - slFr:21:24:1225 - slTo:21:24:1225 - nlA:0
+    Line Starts: 457:13782 458:13784 459:13785 460:13786
+    Keystroke (2) - sz:460:13787 - slFr:1226 - slTo:1226 - nlA:0
+    Line Starts: 457:13783 458:13785 459:13786 460:13787
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_SAVE_FILE
+    Save File (1) - Window: 8d12d0 - SaveAs: 0 - Sel: 0 - fileno: 0 - sizeptr: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_SAVEAS_FILE
+    Save File (1) - Window: 8d12d0 - SaveAs: 1 - Sel: 0 - fileno: 0 - sizeptr: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Save File (2) - name: D:\Unit 6 - Major Programming Project (Summative)\TypeRightOld.java - fileno: 0 - sizeptr: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_CLOSE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_DESTROY (W)
+  CMD: WM_DESTROY (D)
+
+
+Registers
+  EAX=028F1188  EBX=028F11C8  ECX=028F1188  EDX=33202274  ESI=028F1180
+  EDI=028F0000  EBP=0019E580  ESP=0019E438  EIP=77395DEE  FLG=00210202
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+Not enough space for modules.
+
+------------------------------------------------------
